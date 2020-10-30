@@ -1,0 +1,72 @@
+#pasAuBout{
+    margin-right: 800px;
+    text-align: center;
+}
+
+#Résumé{
+    border:3px solid mediumblue;
+    border-radius: 25px;
+    margin-right: 750px;
+}
+
+h1{
+    color: blueviolet;
+    text-decoration: black underline;
+}
+
+h2{
+    color: red;
+    text-decoration: red underline;
+}
+
+q{
+    font-style: italic;
+    font-size: 21px;
+}
+
+a{
+    color: darkseagreen;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.listeFleche{
+    list-style-type: '==>';
+    font-weight: bold;
+}
+
+.listeEtoile{
+    list-style-type: '*  ';
+}
+
+body{
+    background: aliceblue;
+}
+
+.petitNom{
+    text-align: center;
+    text-decoration: cadetblue underline dotted;
+    font-style: italic;
+    border: 1px solid mediumblue;
+    border-radius: 25px;
+}
+
+.centrer{
+    text-align: center;
+}
+
+.entouré{
+    border: 1px solid mediumblue;
+    border-radius: 15px;
+}
+
+.entouréGras{
+    border: 5px solid mediumblue;
+    border-radius: 15px;
+}
+
+.italiqueSouligné{
+    font-style: italic;
+    text-decoration: black underline dotted;
+}
