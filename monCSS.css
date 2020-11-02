@@ -1,22 +1,17 @@
-#pasAuBout{
-    margin-right: 800px;
-    text-align: center;
-}
-
-#Résumé{
-    border:3px solid mediumblue;
-    border-radius: 25px;
-    margin-right: 750px;
-}
-
 h1{
-    color: blueviolet;
-    text-decoration: black underline;
+    background: royalblue;
+    color: white;
+    border-radius: 15px;
+    text-decoration: white underline;
+    text-align: center;
+    font-size: 50px;
+    margin-right: 35%;
+    margin-left: 35%;
 }
 
 h2{
-    color: red;
-    text-decoration: red underline;
+    color: white;
+    text-decoration: white underline;
 }
 
 q{
@@ -25,10 +20,20 @@ q{
 }
 
 a{
-    color: darkseagreen;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
+}
+
+img{
+    width: 200px;
+    border: 5px solid mediumblue;
+    border-radius: 25px;
+}
+
+.image{
+    float: right;
 }
 
 .listeFleche{
@@ -41,7 +46,7 @@ a{
 }
 
 body{
-    background: aliceblue;
+    background-color: #151C23;
 }
 
 .petitNom{
@@ -49,24 +54,113 @@ body{
     text-decoration: cadetblue underline dotted;
     font-style: italic;
     border: 1px solid mediumblue;
-    border-radius: 25px;
+    background: royalblue;
+    color: white;
+    font-size: 35px;
 }
 
 .centrer{
-    text-align: center;
+    text-align: center
 }
 
 .entouré{
-    border: 1px solid mediumblue;
+    background: royalblue;
+    color: white;
     border-radius: 15px;
+    font-size: 35px;
 }
 
-.entouréGras{
-    border: 5px solid mediumblue;
+.encadré{
+    border: 1px solid mediumblue;
+}
+
+.sommaire{
+    background: royalblue;
+    color: white;
     border-radius: 15px;
+    font-size: 35px;
+
+}
+
+.entouréPetit{
+    background: royalblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.trucCool{
+    width: 464.09px;
+    background: royalblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 35px;
+    height: 650px;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.recette{
+    background: royalblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.cavapa{
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    background: royalblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 35px;
+    height: 650px;
+}
+
+.lasagnex2{
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    background: royalblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 35px;
+    height: 1060px;
+}
+
+.lasagne{
+    width: 464.09px;
+    background: royalblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 35px;
+    height: 1060px;
+    margin-left: 50%;
+    margin-top: 5%;
 }
 
 .italiqueSouligné{
     font-style: italic;
     text-decoration: black underline dotted;
+}
+
+.formulaire{
+    margin-left: 35%;
+    margin-top: 10%;
+    background: royalblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-right: 30%;
+}
+
+.décalé{
+    margin-left: 5%;
+}
+
+.grand{
+    margin-left: 30%;
+    color: royalblue;
+    font-size: 50px;
 }

@@ -7,80 +7,85 @@
 </head>
 <body>
 
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqwc6h_39TDIhsCp_CNP6ep2erzvym3mQsHQ&usqp=CAU"
-         alt="Image cuisine" style="float: right">
     <h1>Les recettes de Matt</h1>
-    <q>Ce sont mes recettes, les recetthias, les recettes de Matthias</q>
-    <br><br><br><br>
-    <p id="pasAuBout">
-        Sur ce site, vous trouverez toute mes meilleurs recettes! Je poste une nouvelle recette tout les mardi et les
-        vendredi alors soyez au rendez vous pour être dans les 1er. Dans cette 1ère page vous trouverez un sommaire
-        de toute mes recettes et un peu plus bas un petit résumé de chaqu'une d'entre elle. Baladez vous sur le site
-        et n'oubliez pas de rester gourmand.
-    </p>
+    <div class="entouréPetit">
+        <q>Ce sont mes recettes, les recetthias, les recettes de Matthias</q>
+        <br><br>
+        <p>
+            Sur ce site, vous trouverez toute mes meilleurs recettes! Je poste une nouvelle recette tout les mardi et les
+            vendredi alors soyez au rendez vous pour être dans les 1er. Dans cette 1ère page vous trouverez un sommaire
+            de toute mes recettes et un peu plus bas un petit résumé de chaqu'une d'entre elle. Baladez vous sur le site
+            et n'oubliez pas de rester gourmand.
+        </p>
+        <br>
+    </div>
 
-    <h2>Sommaire</h2>
-    <ul class="listeFleche">
-        <li><a href="vedette.html">La recette en vedette</a></li>
-        <li><a href="vav.html">Vol-au-vent</a></li>
-        <li><a href="hachis.html">Hachis parmentier</a></li>
-        <li><a href="crèpe.html">Crèpes aux champignons</a></li>
-        <li><a href="salade.html">Salade de légumes accompagné de chèvre</a></li>
-        <li><a href="soupe.html">Soupe à la tomate</a></li>
-        <li><a href="contact.html">Me contacter ?</a></li>
-    </ul>
+    <div class="sommaire">
+        <h2 class="centrer">Sommaire</h2>
+        <ul class="listeFleche" style="margin-left: 30px">
+            <li><a href="vedette.html">La recette en vedette</a></li>
+            <li><a href="vav.html">Vol-au-vent</a></li>
+            <li><a href="hachis.html">Hachis parmentier</a></li>
+            <li><a href="crèpe.html">Crèpes aux champignons</a></li>
+            <li><a href="salade.html">Salade de légumes accompagné de chèvre</a></li>
+            <li><a href="soupe.html">Soupe à la tomate</a></li>
+            <li><a href="contact.html">Me contacter ?</a></li>
+        </ul>
+    </div>
 
     <hr>
 
-    <h2>résumé</h2>
-    <table id="Résumé" border="1">
-        <tr>
-            <td width="150" class="petitNom">La recette en vedette</td>
-            <td class="entouré">
-                C'est la recette la mieux notée du mois, depuis 5 mois concécutifs c'est la lasagne du chef. <br>
-                C'est une lasagne assez simple mais réellement savoureuse! Dans cette recette vous aller apprendre a
-                créer votre pate à lasagne et une bonne bolognaise, le tout agrémenté des meilleurs épices et autre
-                herbe aromatique.
-            </td>
-            <td class="entouré">⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐✩</td>
-        </tr>
-        <tr>
-            <td class="petitNom">Vol-au-vent</td>
-            <td class="entouré">
-                Un vol-au-vent rien de plus basique mais qui saura vous surprendre agréablement. Dans cette recette
-                je prend un poulet que je déplume, désosse et je trie les plus beaux morceaux. Nous ferons une belle
-                sauce et nous verrons avec quoi l'accompagner.
-            </td>
-            <td class="entouré">⭐⭐⭐⭐⭐⭐✩✩✩✩</td>
-        </tr>
-        <tr>
-            <td class="petitNom">Hachis parmentier</td>
-            <td class="entouré">
-                Un hachis particulier. Avec cette recette je suis sur que vous serez totalement conquis. Mon délicieux
-                haché saura vous émoustiller les papilles et ma purée vous changera totalement. J'utilise quelque épices
-                et herbes aromatiques le tout acompagné de mon ingredient secret.
-            </td>
-            <td class="entouré">⭐⭐⭐⭐⭐⭐⭐⭐✩✩</td>
-        </tr>
-        <tr>
-            <td class="petitNom">Crèpes aux champignons</td>
-            <td class="entouré">Des crèpes... avec des champignons</td>
-            <td class="entouré">⭐⭐⭐⭐✩✩✩✩✩✩</td>
-        </tr>
-        <tr>
-            <td class="petitNom">Salade de légumes avec du chèvre</td>
-            <td class="entouré">
-                Cette délicieuse salade de légumes ne vous prendra que quelque minutes et cela suffira à combler votre
-                appétit. J'utilise de la salade, des pommes de terre, des tomates cerise, du chèvre et des noix concassées
-            </td>
-            <td class="entouré">⭐⭐⭐⭐⭐⭐⭐✩✩✩</td>
-        </tr>
-        <tr>
-            <td class="petitNom">Soupe à la tomate</td>
-            <td class="entouré">Une bonne soupe à la tomate... avec des bonnes tomates</td>
-            <td class="entouré">⭐⭐✩✩✩✩✩✩✩✩</td>
-        </tr>
-    </table>
+    <div class="entouré">
+        <h2 class="centrer">Résumé</h2>
+        <table>
+            <tr>
+                <td width="150" class="petitNom">La recette en vedette</td>
+                <td class="encadré">
+                    C'est la recette la mieux notée du mois, depuis 5 mois concécutifs c'est la lasagne du chef. <br>
+                    C'est une lasagne assez simple mais réellement savoureuse! Dans cette recette vous aller apprendre a
+                    créer votre pate à lasagne et une bonne bolognaise, le tout agrémenté des meilleurs épices et autre
+                    herbe aromatique.
+                </td>
+                <td class="encadré">⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐✩</td>
+            </tr>
+            <tr>
+                <td class="petitNom">Vol-au-vent</td>
+                <td class="encadré">
+                    Un vol-au-vent rien de plus basique mais qui saura vous surprendre agréablement. Dans cette recette
+                    je prend un poulet que je déplume, désosse et je trie les plus beaux morceaux. Nous ferons une belle
+                    sauce et nous verrons avec quoi l'accompagner.
+                </td>
+                <td class="encadré">⭐⭐⭐⭐⭐⭐✩✩✩✩</td>
+            </tr>
+            <tr>
+                <td class="petitNom">Hachis parmentier</td>
+                <td class="encadré">
+                    Un hachis particulier. Avec cette recette je suis sur que vous serez totalement conquis. Mon délicieux
+                    haché saura vous émoustiller les papilles et ma purée vous changera totalement. J'utilise quelque épices
+                    et herbes aromatiques le tout acompagné de mon ingredient secret.
+                </td>
+                <td class="encadré">⭐⭐⭐⭐⭐⭐⭐⭐✩✩</td>
+            </tr>
+            <tr>
+                <td class="petitNom">Crèpes aux champignons</td>
+                <td class="encadré">Des crèpes... avec des champignons</td>
+                <td class="encadré">⭐⭐⭐⭐✩✩✩✩✩✩</td>
+            </tr>
+            <tr>
+                <td class="petitNom">Salade de légumes avec du chèvre</td>
+                <td class="encadré">
+                    Cette délicieuse salade de légumes ne vous prendra que quelque minutes et cela suffira à combler votre
+                    appétit. J'utilise de la salade, des pommes de terre, des tomates cerise, du chèvre et des noix concassées
+                </td>
+                <td class="encadré">⭐⭐⭐⭐⭐⭐⭐✩✩✩</td>
+            </tr>
+            <tr>
+                <td class="petitNom">Soupe à la tomate</td>
+                <td class="encadré">Une bonne soupe à la tomate... avec des bonnes tomates</td>
+                <td class="encadré">⭐⭐✩✩✩✩✩✩✩✩</td>
+            </tr>
+        </table>
+    </div>
 
 </body>
 </html>
