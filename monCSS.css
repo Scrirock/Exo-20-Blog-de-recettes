@@ -182,3 +182,7 @@ body{
     color: royalblue;
     font-size: 50px;
 }
+
+input, textarea{
+    border-radius: 30px;
+}
