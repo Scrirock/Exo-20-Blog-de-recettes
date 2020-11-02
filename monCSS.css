@@ -7,11 +7,20 @@ h1{
     font-size: 50px;
     margin-right: 35%;
     margin-left: 35%;
+    transition: 0.5s;
+}
+
+h1:hover{
+    margin-top: 25px;
+    margin-left: 36%;
+    margin-right: 35%;
+    animation-duration: 1s;
 }
 
 h2{
     color: white;
     text-decoration: white underline;
+    font-size: 30px;
 }
 
 q{
@@ -23,7 +32,6 @@ a{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 30px;
 }
 
 img{
@@ -53,10 +61,8 @@ body{
     text-align: center;
     text-decoration: cadetblue underline dotted;
     font-style: italic;
-    border: 1px solid mediumblue;
     background: royalblue;
     color: white;
-    font-size: 35px;
 }
 
 .centrer{
@@ -74,11 +80,21 @@ body{
     border: 1px solid mediumblue;
 }
 
-.sommaire{
+.magie{
+    background: royalblue;
+    color: white;
+    border-radius: 15px;
+    width: 150px;
+    font-size: 0px;
+    transition: 1s;
+}
+
+.magie:hover{
     background: royalblue;
     color: white;
     border-radius: 15px;
     font-size: 35px;
+    width: 100%;
 
 }
 
@@ -110,7 +126,8 @@ body{
 .cavapa{
     float: left;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 15%;
+    width: 464.09px;
     background: royalblue;
     color: white;
     border-radius: 15px;
@@ -121,7 +138,8 @@ body{
 .lasagnex2{
     float: left;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 15%;
+    width: 464.09px;
     background: royalblue;
     color: white;
     border-radius: 15px;
