@@ -1,20 +1,35 @@
+.dessus{
+    background: black;
+    position: fixed;
+    width: 100%;
+    margin-left: -8px;
+    font-size: 30px;
+}
+
+.d25{
+    padding-left: 15%;
+
+}
+
+.d75{
+    padding-left: 55%;
+}
+
 h1{
-    background: royalblue;
     color: white;
-    border-radius: 15px;
     text-decoration: white underline;
     text-align: center;
     font-size: 50px;
-    margin-right: 35%;
-    margin-left: 35%;
-    transition: 0.5s;
 }
 
-h1:hover{
-    margin-top: 25px;
-    margin-left: 36%;
-    margin-right: 35%;
-    animation-duration: 1s;
+.titre{
+    color: black;
+    text-decoration: black underline;
+    text-align: center;
+    font-size: 90px;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-top: 25%;
 }
 
 h2{
@@ -34,10 +49,21 @@ a{
     font-weight: bold;
 }
 
-img{
+.img{
     width: 200px;
     border: 5px solid mediumblue;
     border-radius: 25px;
+}
+
+.intro{
+    background-image: url("https://salm-prod-proxy.azureedge.net/fr-be/-/media/adam/cuisinella/mes-realisations/france/fagnieres-0006167/real_fagnieres_pereira_cuisine_01-16-9.jpg?as=0&mw=1920&r=9c1266b41e4c4b19aa55f8e9a4422c3b&hash=E38D45C5DF82D6E22CCB6B988250B3DD2F3C96E4");
+    background-size: cover;
+    margin-top: -60px;
+    margin-right: -6px;
+    margin-left: -6px;
+    height: 1000px;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .image{
@@ -185,4 +211,10 @@ body{
 
 input, textarea{
     border-radius: 30px;
+}
+
+.textIntro{
+    font-size: 23px;
+    color: white;
+    background: rgb(0, 0, 0, 0.5);
 }
