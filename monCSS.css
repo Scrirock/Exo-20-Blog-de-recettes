@@ -6,6 +6,19 @@
     font-size: 30px;
 }
 
+.sommaireLasagne{
+    margin-left: -8px;
+    margin-top: 0;
+    height: 400px;
+    width: 102%;
+    background-image: url("lasagne.png");
+    transition: 1s;
+}
+
+.sommaireLasagne:hover{
+    background-image: url("lasagneHover.png");
+}
+
 .moinspx{
     margin-top: -152px;
 }
@@ -56,9 +69,8 @@ q{
 }
 
 a{
-    color: white;
     text-decoration: none;
-    font-weight: bold;
+    color: white;
 }
 
 .img{
@@ -96,11 +108,10 @@ body{
 }
 
 .petitNom{
-    text-align: center;
-    text-decoration: cadetblue underline dotted;
+    text-decoration: white underline dotted;
     font-style: italic;
-    background: royalblue;
     color: white;
+    font-size: 28px;
 }
 
 .centrer{
