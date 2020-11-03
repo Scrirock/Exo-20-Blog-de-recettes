@@ -10,13 +10,69 @@
     margin-left: -8px;
     margin-top: 0;
     height: 400px;
-    width: 102%;
+    width: 101%;
     background-image: url("lasagne.png");
     transition: 1s;
 }
 
 .sommaireLasagne:hover{
     background-image: url("lasagneHover.png");
+}
+
+.sommaireVav{
+    margin-left: -8px;
+    margin-top: 0;
+    height: 400px;
+    width: 101%;
+    background-image: url("vav.png");
+    background-position-x: right;
+    transition: 1s;
+}
+
+.sommaireVav:hover{
+    background-image: url("vavHover.png");
+}
+
+.sommaireHachis{
+    margin-left: -8px;
+    margin-top: 0;
+    height: 400px;
+    width: 101%;
+    background-image: url("hachis.png");
+    background-position-x: right;
+    transition: 1s;
+}
+
+.sommaireHachis:hover{
+    background-image: url("hachisHover.png");
+}
+
+.sommaireCrepe{
+    margin-left: -8px;
+    margin-top: 0;
+    height: 400px;
+    width: 101%;
+    background-image: url("crepe.png");
+    background-position-x: right;
+    transition: 1s;
+}
+
+.sommaireCrepe:hover{
+    background-image: url("crepeHover.png");
+}
+
+.sommaireSoupe{
+    margin-left: -8px;
+    margin-top: 0;
+    height: 400px;
+    width: 101%;
+    background-image: url("soupe.png");
+    background-position-x: right;
+    transition: 1s;
+}
+
+.sommaireSoupe:hover{
+    background-image: url("soupeHover.png");
 }
 
 .moinspx{
@@ -33,7 +89,7 @@
 }
 
 .d50{
-    padding-left: 50%;
+    padding-left: 43%;
 }
 
 .d75{
