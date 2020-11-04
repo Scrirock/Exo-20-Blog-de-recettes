@@ -6,6 +6,14 @@
     font-size: 30px;
 }
 
+.remonte{
+    float: right;
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 42%;
+    z-index: 5;
+}
+
 .sommaireLasagne{
     margin-left: -8px;
     margin-top: 0;
