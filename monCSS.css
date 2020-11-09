@@ -109,6 +109,8 @@ h1{
     text-decoration: white underline;
     text-align: center;
     font-size: 50px;
+    position: relative;
+    top: -120px;
 }
 
 .titre{
@@ -130,11 +132,14 @@ h2{
 q{
     font-style: italic;
     font-size: 21px;
+    line-height: 80px;
 }
 
 a{
     text-decoration: none;
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 .img{
@@ -144,6 +149,7 @@ a{
 }
 
 .intro{
+    position: relative;
     background-image: url("https://salm-prod-proxy.azureedge.net/fr-be/-/media/adam/cuisinella/mes-realisations/france/fagnieres-0006167/real_fagnieres_pereira_cuisine_01-16-9.jpg?as=0&mw=1920&r=9c1266b41e4c4b19aa55f8e9a4422c3b&hash=E38D45C5DF82D6E22CCB6B988250B3DD2F3C96E4");
     background-size: cover;
     margin-top: -60px;
@@ -189,35 +195,6 @@ body{
     font-size: 35px;
 }
 
-.encadré{
-    border: 1px solid mediumblue;
-}
-
-.magie{
-    background: royalblue;
-    color: white;
-    border-radius: 15px;
-    width: 150px;
-    font-size: 0;
-    transition: 0.5s;
-}
-
-.magie:hover{
-    background: royalblue;
-    color: white;
-    border-radius: 15px;
-    font-size: 35px;
-    width: 100%;
-
-}
-
-.entouréPetit{
-    background: royalblue;
-    color: white;
-    border-radius: 15px;
-    font-size: 18px;
-}
-
 .trucCool{
     width: 464px;
     background: royalblue;
@@ -226,7 +203,6 @@ body{
     font-size: 35px;
     height: 650px;
     margin-left: 50%;
-    margin-top: 5%;
 }
 
 .recette{
@@ -238,7 +214,6 @@ body{
 
 .cavapa{
     float: left;
-    margin-top: 5%;
     margin-left: 15%;
     width: 464px;
     background: royalblue;
@@ -250,7 +225,6 @@ body{
 
 .lasagnex2{
     float: left;
-    margin-top: 5%;
     margin-left: 15%;
     width: 464px;
     background: royalblue;
@@ -268,7 +242,6 @@ body{
     font-size: 35px;
     height: 1060px;
     margin-left: 50%;
-    margin-top: 5%;
 }
 
 .italiqueSouligné{
@@ -301,7 +274,22 @@ input, textarea{
 }
 
 .textIntro{
+    position: relative;
     font-size: 23px;
     color: white;
     background: rgb(0, 0, 0, 0.5);
+    margin-top: 0;
+    top: 175px;
+}
+
+.textIntro2{
+    position: relative;
+    font-size: 23px;
+    color: white;
+    background: rgb(0, 0, 0, 0.5);
+    top: -120px;
+}
+
+label{
+    display: block;
 }
